@@ -46,6 +46,10 @@ int main()
     Node *gc6 = gc2->add_child(arena);
     gc6->w = 150;
     gc6->h = 150;
+    
+    Node *gc7 = gc2->add_child(arena);
+    gc7->w = 20;
+    gc7->h = 150;
 
     Node *child2 = root->add_child(arena);
     child2->w = 40;
